@@ -58,9 +58,7 @@ public class Bai3 {
         for (int i = 0; i < n; i++) {
             b[i] = a[i];
         }
-        for (int i = 0; i < n + 1; i++) {
-            b[n] = p;
-        }
+        b[n] = p;
         System.out.print("Mang sau khi chen phan tu " + p + " la: ");
         Sort(b, n + 1);
     }
